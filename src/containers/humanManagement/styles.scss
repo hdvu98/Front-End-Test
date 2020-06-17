@@ -1,0 +1,23 @@
+.btn-actions{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+.my-btn{
+    width: 2rem;
+    height: 2rem;
+    font-size: 0.6rem;
+    margin-right: 0.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn-edit{
+    background: #3ebb93;
+    color: white;
+    &:hover, &:focus, &:active{
+        color: white;
+        background: #0a9fbf;
+    }
+}

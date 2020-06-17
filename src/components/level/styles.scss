@@ -1,0 +1,32 @@
+.level-wrapper{
+    height: 1rem;
+    width: 100%;
+    position: relative;
+    background: #e9ecef;
+    border-radius: 0.5rem;
+    min-width: 50px;
+    // border: solid 1px black;
+    overflow: hidden;
+    .progress-bar{
+        position: absolute;
+        height: 100%;
+        top: 0;
+        left: 0;
+        content: '';
+        &_avarage{
+            background: #FDC830;  /* fallback for old browsers */
+            background: -webkit-linear-gradient(to right, #F37335, #FDC830);  /* Chrome 10-25, Safari 5.1-6 */
+            background: linear-gradient(to right, #F37335, #FDC830); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        };
+        &_bad{
+            background: #ED213A;  /* fallback for old browsers */
+            background: -webkit-linear-gradient(to right, #93291E, #ED213A);  /* Chrome 10-25, Safari 5.1-6 */
+            background: linear-gradient(to right, #93291E, #ED213A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+        };
+        &_good{
+            background: linear-gradient(to right, #0a9fbf, #3ebb93);
+            background: -webkit-linear-gradient(to right, #0a9fbf, #3ebb93);
+        }
+    }
+}
